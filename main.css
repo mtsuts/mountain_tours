@@ -1,0 +1,151 @@
+body {
+  background-image: url(../images/back.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  font-family: "Open Sans", sans-serif;
+}
+.main-container {
+  padding: 0px 100px;
+}
+
+.main-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-icon {
+  width: 70px;
+  height: 70px;
+}
+.logo-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+  color: #000000;
+  width: 249px;
+  height: 44px;
+}
+.heading {
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 91px;
+  line-height: 86px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #3a3a3a;
+}
+.span {
+  color: #003864;
+}
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #3a3a3a;
+  width: 40%;
+}
+.btns {
+}
+
+.btn {
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  border: 3px solid #003864;
+  padding: 12px 30px;
+  min-width: 275px;
+}
+
+.first-btn {
+  background-color: #003864;
+  color: #ffffff;
+}
+.second-btn {
+  background-color: #ffffff;
+  color: #003864;
+  margin-left: 23px;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  color: #000000;
+  margin-right: 30px;
+}
+.menu {
+  margin-right: 28px;
+}
+.tours {
+  margin-right: 28px;
+}
+.image {
+  position: absolute;
+  width: 100%;
+}
+
+.popup {
+  display: flex;
+}
+.popup-button {
+  visibility: hidden;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #003864;
+  color: #ffffff;
+}
+.open-popup {
+  visibility: visible;
+}
+.close-popup {
+  visibility: hidden;
+}
+
+.close-button {
+  position: relative;
+  float: right;
+  top: -150px;
+  right: -5px;
+}
+
+@media (max-width: 908px) {
+  body {
+    background-image: none;
+  }
+  p {
+    width: 100%;
+  }
+  /* .br {
+    display: none;
+  } */
+  .main-menu {
+    display: none;
+  }
+  .heading {
+    width: 100%;
+    font-size: 25px;
+    line-height: 1.5;
+  }
+  .first-btn {
+    font-size: 10px;
+    min-width: 150px;
+  }
+  .second-btn {
+    margin-top: 10px;
+    font-size: 10px;
+    min-width: 150px;
+    margin-left: 0px;
+  }
+}
